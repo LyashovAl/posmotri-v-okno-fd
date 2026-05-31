@@ -167,7 +167,6 @@ ol {
 }
 
 .search-form__checkbox:checked+ .search-form__pseudo-checkbox::after {
-  position: absolute;
   margin-top: 1px;
   margin-left: 1px;
   content: "";
@@ -255,7 +254,7 @@ ol {
   background-color: #545050;
 }
 
-.content__list-item:active{
+.content__list-item:active {
   background-color: #545050;
 }
 
@@ -270,11 +269,11 @@ ol {
   display: block;
 }
 
-.content__card-link:focus{
+.content__card-link:focus {
   outline: none;
 }
 
-.content__card-link:focus-visible{
+.content__card-link:focus-visible {
   outline: 1px solid #fff;
 }
 
@@ -310,6 +309,7 @@ ol {
   -webkit-line-clamp: 4;
   overflow: hidden;
   max-width: 192px;
+  padding-top: 5px;
 }
 
 .content__video-card-thumbnail {
