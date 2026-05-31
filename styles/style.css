@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
@@ -180,7 +180,7 @@ ol {
   background-color: transparent;
   border: 1px solid #fff;
   color: #FFF;
-  font-family: 'Fira Sans Condensed', sans-serif  ;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
@@ -301,6 +301,7 @@ ol {
 }
 
 .content__video-card-description {
+  font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
