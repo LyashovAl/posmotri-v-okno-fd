@@ -86,7 +86,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-size: 18px;
   font-weight: 400;
   line-height: 100%;
@@ -123,7 +123,7 @@ ol {
 }
 
 .search-form__textfield {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-size: 18px;
   font-weight: 400;
   line-height: 100%;
@@ -164,15 +164,19 @@ ol {
   block-size: 19px;
   border: 1px solid #fff;
   position: relative;
+  padding: 1px;
 }
 
-.search-form__checkbox:checked+ .search-form__pseudo-checkbox::after {
-  margin-top: 1px;
-  margin-left: 1px;
+.search-form__pseudo-checkbox::after {
+  display: block;
   content: "";
   inline-size: 15px;
   block-size: 15px;
   background-color: #fff;
+  opacity: 0;
+}
+
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
 }
 
@@ -180,7 +184,7 @@ ol {
   background-color: transparent;
   border: 1px solid #fff;
   color: #FFF;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
@@ -301,7 +305,7 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
